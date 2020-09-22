@@ -1,0 +1,27 @@
+.button{
+
+    -fx-background-color: #1a1a1a;
+    -fx-border-width: 2px;
+    -fx-border-color: #00A684;
+    -fx-text-fill: #00A684;
+    -fx-border-radius: 2px;
+
+}
+.button:hover{
+
+    -fx-background-color: #1a1a1a;
+    -fx-border-width: 2px;
+    -fx-border-color: #008469;
+    -fx-text-fill: #008469;
+    -fx-border-radius: 2px;
+
+}
+.button:pressed{
+
+    -fx-background-color: #1a1a1a;
+    -fx-border-width: 2px;
+    -fx-border-color: #00DEB0;
+    -fx-text-fill: #00DEB0;
+    -fx-border-radius: 2px;
+
+}

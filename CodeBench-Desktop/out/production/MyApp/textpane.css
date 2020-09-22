@@ -1,0 +1,70 @@
+.text-area{
+
+    -fx-background-color: transparent;
+    -fx-text-fill: #2ecef0 ;
+
+}
+
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.text-area .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+
+
+.text-area .scroll-pane .content{
+    -fx-background-color: transparent;
+}
+
+.scroll-bar:vertical .track{
+    -fx-background-color :#1a1a1a ;
+    -fx-border-color : #1a1a1a ;
+    -fx-background-radius : 0 ;
+    -fx-border-radius : 2 ;
+}
+
+.scroll-bar:vertical .increment-button ,
+.scroll-bar:vertical .decrement-button {
+    -fx-background-color : #1a1a1a ;
+    -fx-background-radius : 0 ;
+    -fx-padding :-1 -1 -1 -1 ;
+
+}
+
+.scroll-bar:horizontal .increment-button ,
+.scroll-bar:horizontal .decrement-button {
+    -fx-background-color : #1a1a1a ;
+    -fx-background-radius : 0 ;
+    -fx-padding :-1 -1 -1 -1 ;
+
+}
+.scroll-bar .increment-arrow,
+.scroll-bar .decrement-arrow{
+    -fx-shape : " ";
+    -fx-padding : -1 -1 -1 -1;
+}
+
+.scroll-bar:vertical .increment-arrow,
+.scroll-bar:vertical .decrement-arrow{
+    -fx-shape : " " ;
+    -fx-padding : -1  -1  -1  -1;
+}
+
+.scroll-bar:vertical .thumb {
+    -fx-background-color :  #2ecef0 ;
+    -fx-background-insets : 2 , 2 , 2 , 2;
+    -fx-background-radius : 2 ;
+}
+.scroll-bar:horizontal .increment-arrow,
+.scroll-bar:horizontal .decrement-arrow{
+    -fx-shape : " " ;
+    -fx-padding : -1 -1 -1 -1;
+}
+
+.scroll-bar:horizontal .thumb {
+    -fx-background-color :  #2ecef0 ;
+    -fx-background-insets : 2 , 2 , 2, 2;
+    -fx-background-radius : 2 ;
+}

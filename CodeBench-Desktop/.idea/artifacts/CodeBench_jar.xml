@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CodeBench:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CodeBench_jar</output-path>
+    <root id="archive" name="MyApp.jar">
+      <element id="module-output" name="MyApp" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/json-simple-1.1.jar/json-simple-1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/org.json.jar/org.json.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/java-json.jar/java-json.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/libs/javafx-sdk-11.0.2/lib/javafx-swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/libs/javafx-sdk-11.0.2/lib/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/libs/javafx-sdk-11.0.2/lib/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/libs/javafx-sdk-11.0.2/lib/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/libs/javafx-sdk-11.0.2/lib/javafx.graphics.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/libs/javafx-sdk-11.0.2/lib/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/libs/javafx-sdk-11.0.2/lib/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/libs/javafx-sdk-11.0.2/lib/javafx.web.jar" path-in-jar="/" />
+      <element id="library" level="application" name="java-json" />
+      <element id="library" level="application" name="Java Fx 11" />
+      <element id="library" level="application" name="json-simple-1.1" />
+      <element id="library" level="application" name="org.json" />
+    </root>
+  </artifact>
+</component>

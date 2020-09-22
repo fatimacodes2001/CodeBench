@@ -1,0 +1,23 @@
+
+.right{
+    -fx-font-family: "Square721 BT";
+    -fx-font-weight: bold;
+    -fx-background-color: #1a1a1a;
+    -fx-border-style: segments(10px, 5px) ;
+    -fx-border-width: 1px ;
+    -fx-border-color: #CE4869;
+    -fx-text-fill: #CE4869;
+    -fx-border-radius: 2px;
+}
+
+.right:hover{
+    -fx-border-color: #FF003D;
+    -fx-text-fill: #FF003D;
+}
+.right:pressed{
+    -fx-background-color: #CE4869;
+    -fx-border-color: transparent;
+    -fx-text-fill: #1a1a1a;
+}
+
+

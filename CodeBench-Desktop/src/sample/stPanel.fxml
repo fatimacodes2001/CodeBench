@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane fx:id="sidepane" minHeight="540.0" minWidth="237.0" prefHeight="540.0" prefWidth="237.0" style="-fx-background-color: #1A1A1A;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.StPanel">
+    <!--    <children>-->
+    <!--      <AnchorPane prefHeight="200.0" prefWidth="200.0">-->
+    <!--         <children>-->
+    <!--            <SplitPane dividerPositions="0.9275092936802974" orientation="VERTICAL" prefHeight="540.0" prefWidth="240.0" style="-fx-background-color: #100040;">-->
+    <!--              <items>-->
+    <!--                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="219.0" prefWidth="238.0" />-->
+    <!--                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="50.0" prefWidth="238.0" style="-fx-background-color: #100040;">-->
+    <!--                     <children>-->
+    <!--                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#100040" height="47.0" stroke="#553f3f" strokeType="INSIDE" strokeWidth="0.0" width="240.0" />-->
+    <!--                        <Button fx:id="add" alignment="CENTER" layoutX="8.0" layoutY="3.0" mnemonicParsing="false" prefHeight="19.0" prefWidth="223.0" styleClass="add" stylesheets="@Main.css" text="Add Assignment" textFill="#ada7a7" />-->
+    <!--                     </children>-->
+    <!--                     <padding>-->
+    <!--                        <Insets bottom="-1.0" left="-1.0" right="-1.0" top="-1.0" />-->
+    <!--                     </padding>-->
+    <!--                  </AnchorPane>-->
+    <!--              </items>-->
+    <!--            </SplitPane>-->
+    <!--            <AnchorPane prefHeight="190.0" prefWidth="240.0" style="-fx-background-color: black;">-->
+    <!--               <children>-->
+    <!--                    <ScrollPane fx:id="sp" hbarPolicy="NEVER" prefHeight="245.0" prefWidth="240.0" style="-fx-background-color: #241A45;" stylesheets="@Main.css" vbarPolicy="ALWAYS">-->
+    <!--                     <content>-->
+    <!--                            <VBox fx:id="vbox" prefHeight="244.0" prefWidth="225.0" spacing="5.0" style="-fx-background-color: #241A45;">-->
+    <!--                                <padding>-->
+    <!--                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />-->
+    <!--                                </padding>-->
+    <!--                           <opaqueInsets>-->
+    <!--                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />-->
+    <!--                           </opaqueInsets>-->
+    <!--                            </VBox>-->
+    <!--                     </content>-->
+    <!--                    </ScrollPane>-->
+    <!--               </children>-->
+    <!--            </AnchorPane>-->
+    <!--            <Pane prefHeight="216.0" prefWidth="240.0" style="-fx-background-color: #100040;">-->
+    <!--               <children>-->
+    <!--                  <Circle fill="#1f93ff00" layoutX="26.0" layoutY="26.0" radius="12.0" stroke="#fffdfd" strokeType="INSIDE" />-->
+    <!--                  <Circle fill="#1f93ff00" layoutX="26.0" layoutY="26.0" radius="5.0" stroke="#ede2e2" strokeType="INSIDE" />-->
+
+
+    <!--                  <ImageView fitHeight="106.0" fitWidth="120.0" layoutX="60.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true" />-->
+    <!--                  <Button id="signout" fx:id="signout" alignment="TOP_CENTER" layoutX="162.0" layoutY="193.0" maxHeight="18.0" minHeight="0.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="77.5" style="-fx-background-radius: 2; -fx-border-radius: 2; -fx-font-size: 10; -fx-background-insets: 0; -fx-label-padding: 0; -fx-line-spacing: 0;" styleClass="signout" stylesheets="@Main.css" text="Sign Out" textFill="WHITE">-->
+    <!--                     <opaqueInsets>-->
+    <!--                        <Insets />-->
+    <!--                     </opaqueInsets>-->
+    <!--                     <padding>-->
+    <!--                        <Insets right="1.0" top="0.1" />-->
+    <!--                     </padding>-->
+    <!--                  </Button>-->
+    <!--               </children>-->
+    <!--            </Pane>-->
+    <!--            <MenuButton id="coursebutton" fx:id="coursebutton" alignment="CENTER" mnemonicParsing="false" prefHeight="18.5" prefWidth="240.0" style="-fx-border-width: 0; -fx-font-size: 10;" styleClass="coursebutton" stylesheets="@Main.css" text="Object Oriented Programming" textFill="#ada7a7">-->
+    <!--              <items>-->
+    <!--                <MenuItem mnemonicParsing="false" text="Action 1" />-->
+    <!--                <MenuItem mnemonicParsing="false" text="Action 2" />-->
+    <!--              </items>-->
+    <!--               <font>-->
+    <!--                  <Font size="10.0" />-->
+    <!--               </font>-->
+    <!--            </MenuButton>-->
+    <!--            <Label fx:id="name" alignment="CENTER" contentDisplay="CENTER" prefHeight="18.5" prefWidth="240.0" style="-fx-background-color: white; -fx-font-family: &quot;Square721 BT&quot;; -fx-font-style: normal; -fx-font-size: 15; -fx-border-color: white; -fx-border-width: 0;" text="Label" textFill="#100040" />-->
+    <!--         </children>-->
+    <!--      </AnchorPane>-->
+
+
+
+
+
+
+    <top>
+        <AnchorPane prefHeight="235.0" prefWidth="237.0" style="-fx-background-color: #1a1a1a;" BorderPane.alignment="CENTER">
+            <children>
+
+
+                <Pane layoutX="-1.0" prefHeight="216.0" prefWidth="237.0" style="-fx-background-color: #1A1A1A;">
+                    <children>
+                  <Pane layoutY="-4.0" opacity="0.5" prefHeight="220.0" prefWidth="237.0" rotate="90.0" style="-fx-background-color: #1a1a1a;">
+                     <children>
+                        <Circle fill="#32d3f0" layoutX="38.0" layoutY="146.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="33.0" layoutY="113.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="54.0" layoutY="93.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="90.0" layoutY="121.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="134.0" layoutY="153.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="156.0" layoutY="194.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="99.0" layoutY="183.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="65.0" layoutY="207.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="94.0" layoutY="63.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="163.0" layoutY="107.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="178.0" layoutY="161.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="220.0" layoutY="167.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="216.0" layoutY="111.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="186.0" layoutY="74.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="140.0" layoutY="92.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="120.0" layoutY="52.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="177.0" layoutY="32.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="217.0" layoutY="40.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="20.0" layoutY="40.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="69.0" layoutY="35.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Line endX="54.0" endY="93.0" startX="33.0" startY="113.0" stroke="#32d3f0" />
+                        <Line endX="94.0" endY="63.0" startX="54.0" startY="93.0" stroke="#32d3f0" />
+                        <Line endX="120.0" endY="52.0" startX="94.0" startY="63.0" stroke="#32d3f0" />
+                        <Line endX="177.0" endY="32.0" startX="120.0" startY="52.0" stroke="#32d3f0" />
+                        <Line endX="20.0" endY="40.0" startX="54.0" startY="93.0" stroke="#32d3f0" />
+                        <Line endX="69.0" endY="35.0" startX="54.0" startY="93.0" stroke="#32d3f0" />
+                        <Line endX="38.0" endY="146.0" startX="33.0" startY="113.0" stroke="#32d3f0" />
+                        <Line endX="54.0" endY="93.0" startX="38.0" startY="146.0" stroke="#32d3f0" />
+                        <Line endX="20.0" endY="40.0" startX="33.0" startY="113.0" stroke="#32d3f0" />
+                        <Line endX="20.0" endY="40.0" startY="113.0" stroke="#32d3f0" />
+                        <Line endX="38.0" endY="146.0" startY="113.0" stroke="#32d3f0" />
+                        <Line endY="111.0" startX="33.0" startY="113.0" stroke="#32d3f0" />
+                        <Line endX="38.0" endY="146.0" startY="189.0" stroke="#32d3f0" />
+                        <Line endX="38.0" endY="146.0" startX="65.0" startY="207.0" stroke="#32d3f0" />
+                        <Line endX="99.0" endY="183.0" startX="65.0" startY="207.0" stroke="#32d3f0" />
+                        <Line endX="38.0" endY="146.0" startX="99.0" startY="183.0" stroke="#32d3f0" />
+                        <Line endY="193.0" startX="65.0" startY="207.0" stroke="#32d3f0" />
+                        <Line endX="30.0" endY="223.0" startX="65.0" startY="207.0" stroke="#32d3f0" />
+                        <Line endX="156.0" endY="194.0" startX="65.0" startY="207.0" stroke="#32d3f0" />
+                        <Line endX="99.0" endY="183.0" startX="156.0" startY="194.0" stroke="#32d3f0" />
+                        <Line endX="38.0" endY="146.0" startX="90.0" startY="121.0" stroke="#32d3f0" />
+                        <Line endX="134.0" endY="153.0" startX="90.0" startY="121.0" stroke="#32d3f0" />
+                        <Line endX="99.0" endY="183.0" startX="90.0" startY="121.0" stroke="#32d3f0" />
+                        <Line endX="134.0" endY="153.0" startX="99.0" startY="183.0" stroke="#32d3f0" />
+                        <Line endX="134.0" endY="153.0" startX="156.0" startY="194.0" stroke="#32d3f0" />
+                        <Line endX="54.0" endY="93.0" startX="90.0" startY="121.0" stroke="#32d3f0" />
+                        <Line endX="94.0" endY="63.0" startX="69.0" startY="35.0" stroke="#32d3f0" />
+                        <Line endX="20.0" endY="40.0" startX="69.0" startY="35.0" stroke="#32d3f0" />
+                        <Line endX="20.0" endY="40.0" startY="3.0" stroke="#32d3f0" />
+                        <Line endX="20.0" endY="40.0" startX="78.0" stroke="#32d3f0" />
+                        <Line endX="78.0" startX="69.0" startY="35.0" stroke="#32d3f0" />
+                        <Line endX="78.0" startX="94.0" startY="63.0" stroke="#32d3f0" />
+                        <Line endX="114.0" startX="94.0" startY="63.0" stroke="#32d3f0" />
+                        <Line endX="114.0" startX="120.0" startY="52.0" stroke="#32d3f0" />
+                        <Line endX="114.0" startX="177.0" startY="32.0" stroke="#32d3f0" />
+                        <Line endX="194.0" startX="177.0" startY="32.0" stroke="#32d3f0" />
+                        <Line endX="241.0" startX="177.0" startY="32.0" stroke="#32d3f0" />
+                        <Line endX="163.0" endY="107.0" startX="90.0" startY="121.0" stroke="#32d3f0" />
+                        <Line endX="163.0" endY="107.0" startX="134.0" startY="153.0" stroke="#32d3f0" />
+                        <Line endX="163.0" endY="107.0" startX="178.0" startY="161.0" stroke="#32d3f0" />
+                        <Line endX="156.0" endY="194.0" startX="178.0" startY="161.0" stroke="#32d3f0" />
+                        <Line endX="134.0" endY="153.0" startX="178.0" startY="161.0" stroke="#32d3f0" />
+                        <Line endX="156.0" endY="194.0" startX="230.0" startY="224.0" stroke="#32d3f0" />
+                        <Line endX="178.0" endY="161.0" startX="230.0" startY="224.0" stroke="#32d3f0" />
+                        <Line endX="220.0" endY="167.0" startX="237.0" startY="222.0" stroke="#32d3f0" />
+                        <Line endX="220.0" endY="167.0" startX="178.0" startY="161.0" stroke="#32d3f0" />
+                        <Line endX="163.0" endY="107.0" startX="54.0" startY="93.0" stroke="#32d3f0" />
+                        <Line endX="140.0" endY="92.0" startX="94.0" startY="63.0" stroke="#32d3f0" />
+                        <Line endX="140.0" endY="92.0" startX="54.0" startY="93.0" stroke="#32d3f0" />
+                        <Line endX="140.0" endY="92.0" startX="186.0" startY="74.0" stroke="#32d3f0" />
+                        <Line endX="177.0" endY="32.0" startX="186.0" startY="74.0" stroke="#32d3f0" />
+                        <Line endX="186.0" endY="74.0" startX="120.0" startY="52.0" stroke="#32d3f0" />
+                        <Line endX="186.0" endY="74.0" startX="94.0" startY="63.0" stroke="#32d3f0" />
+                        <Line endX="163.0" endY="107.0" startX="186.0" startY="74.0" stroke="#32d3f0" />
+                        <Line endX="140.0" endY="92.0" startX="163.0" startY="107.0" stroke="#32d3f0" />
+                        <Line endX="241.0" startX="217.0" startY="40.0" stroke="#32d3f0" />
+                        <Line endX="186.0" endY="74.0" startX="217.0" startY="40.0" stroke="#32d3f0" />
+                        <Line endX="216.0" endY="111.0" startX="178.0" startY="161.0" stroke="#32d3f0" />
+                        <Line endX="216.0" endY="111.0" startX="186.0" startY="74.0" stroke="#32d3f0" />
+                        <Line endX="216.0" endY="111.0" startX="163.0" startY="107.0" stroke="#32d3f0" />
+                        <Line endX="220.0" endY="167.0" startX="237.0" startY="142.0" stroke="#32d3f0" />
+                        <Line endX="216.0" endY="111.0" startX="237.0" startY="142.0" stroke="#32d3f0" />
+                        <Line endX="216.0" endY="111.0" startX="237.0" startY="98.0" stroke="#32d3f0" />
+                        <Line endX="237.0" endY="98.0" startX="186.0" startY="74.0" stroke="#32d3f0" />
+                        <Line endX="237.0" endY="74.0" startX="217.0" startY="40.0" stroke="#32d3f0" />
+                     </children>
+                     <effect>
+                        <BoxBlur height="4.0" iterations="3" width="4.0" />
+                     </effect>
+                  </Pane>
+                  <Pane opacity="0.5" prefHeight="220.0" prefWidth="237.0">
+                     <children>
+                        <Circle fill="#32d3f0" layoutX="38.0" layoutY="146.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="33.0" layoutY="113.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="54.0" layoutY="93.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="90.0" layoutY="121.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="134.0" layoutY="153.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="156.0" layoutY="194.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="99.0" layoutY="183.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="65.0" layoutY="207.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="94.0" layoutY="63.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="163.0" layoutY="107.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="178.0" layoutY="161.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="220.0" layoutY="167.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="216.0" layoutY="111.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="186.0" layoutY="74.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="140.0" layoutY="92.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="120.0" layoutY="52.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="177.0" layoutY="32.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="217.0" layoutY="40.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="20.0" layoutY="40.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Circle fill="#32d3f0" layoutX="69.0" layoutY="35.0" radius="3.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                        <Line endX="54.0" endY="93.0" startX="33.0" startY="113.0" stroke="#32d3f0" />
+                        <Line endX="94.0" endY="63.0" startX="54.0" startY="93.0" stroke="#32d3f0" />
+                        <Line endX="120.0" endY="52.0" startX="94.0" startY="63.0" stroke="#32d3f0" />
+                        <Line endX="177.0" endY="32.0" startX="120.0" startY="52.0" stroke="#32d3f0" />
+                        <Line endX="20.0" endY="40.0" startX="54.0" startY="93.0" stroke="#32d3f0" />
+                        <Line endX="69.0" endY="35.0" startX="54.0" startY="93.0" stroke="#32d3f0" />
+                        <Line endX="38.0" endY="146.0" startX="33.0" startY="113.0" stroke="#32d3f0" />
+                        <Line endX="54.0" endY="93.0" startX="38.0" startY="146.0" stroke="#32d3f0" />
+                        <Line endX="20.0" endY="40.0" startX="33.0" startY="113.0" stroke="#32d3f0" />
+                        <Line endX="20.0" endY="40.0" startY="113.0" stroke="#32d3f0" />
+                        <Line endX="38.0" endY="146.0" startY="113.0" stroke="#32d3f0" />
+                        <Line endY="111.0" startX="33.0" startY="113.0" stroke="#32d3f0" />
+                        <Line endX="38.0" endY="146.0" startY="189.0" stroke="#32d3f0" />
+                        <Line endX="38.0" endY="146.0" startX="65.0" startY="207.0" stroke="#32d3f0" />
+                        <Line endX="99.0" endY="183.0" startX="65.0" startY="207.0" stroke="#32d3f0" />
+                        <Line endX="38.0" endY="146.0" startX="99.0" startY="183.0" stroke="#32d3f0" />
+                        <Line endY="193.0" startX="65.0" startY="207.0" stroke="#32d3f0" />
+                        <Line endX="30.0" endY="223.0" startX="65.0" startY="207.0" stroke="#32d3f0" />
+                        <Line endX="156.0" endY="194.0" startX="65.0" startY="207.0" stroke="#32d3f0" />
+                        <Line endX="99.0" endY="183.0" startX="156.0" startY="194.0" stroke="#32d3f0" />
+                        <Line endX="38.0" endY="146.0" startX="90.0" startY="121.0" stroke="#32d3f0" />
+                        <Line endX="134.0" endY="153.0" startX="90.0" startY="121.0" stroke="#32d3f0" />
+                        <Line endX="99.0" endY="183.0" startX="90.0" startY="121.0" stroke="#32d3f0" />
+                        <Line endX="134.0" endY="153.0" startX="99.0" startY="183.0" stroke="#32d3f0" />
+                        <Line endX="134.0" endY="153.0" startX="156.0" startY="194.0" stroke="#32d3f0" />
+                        <Line endX="54.0" endY="93.0" startX="90.0" startY="121.0" stroke="#32d3f0" />
+                        <Line endX="94.0" endY="63.0" startX="69.0" startY="35.0" stroke="#32d3f0" />
+                        <Line endX="20.0" endY="40.0" startX="69.0" startY="35.0" stroke="#32d3f0" />
+                        <Line endX="20.0" endY="40.0" startY="3.0" stroke="#32d3f0" />
+                        <Line endX="20.0" endY="40.0" startX="78.0" stroke="#32d3f0" />
+                        <Line endX="78.0" startX="69.0" startY="35.0" stroke="#32d3f0" />
+                        <Line endX="78.0" startX="94.0" startY="63.0" stroke="#32d3f0" />
+                        <Line endX="114.0" startX="94.0" startY="63.0" stroke="#32d3f0" />
+                        <Line endX="114.0" startX="120.0" startY="52.0" stroke="#32d3f0" />
+                        <Line endX="114.0" startX="177.0" startY="32.0" stroke="#32d3f0" />
+                        <Line endX="194.0" startX="177.0" startY="32.0" stroke="#32d3f0" />
+                        <Line endX="241.0" startX="177.0" startY="32.0" stroke="#32d3f0" />
+                        <Line endX="163.0" endY="107.0" startX="90.0" startY="121.0" stroke="#32d3f0" />
+                        <Line endX="163.0" endY="107.0" startX="134.0" startY="153.0" stroke="#32d3f0" />
+                        <Line endX="163.0" endY="107.0" startX="178.0" startY="161.0" stroke="#32d3f0" />
+                        <Line endX="156.0" endY="194.0" startX="178.0" startY="161.0" stroke="#32d3f0" />
+                        <Line endX="134.0" endY="153.0" startX="178.0" startY="161.0" stroke="#32d3f0" />
+                        <Line endX="156.0" endY="194.0" startX="230.0" startY="224.0" stroke="#32d3f0" />
+                        <Line endX="178.0" endY="161.0" startX="230.0" startY="224.0" stroke="#32d3f0" />
+                        <Line endX="220.0" endY="167.0" startX="237.0" startY="222.0" stroke="#32d3f0" />
+                        <Line endX="220.0" endY="167.0" startX="178.0" startY="161.0" stroke="#32d3f0" />
+                        <Line endX="163.0" endY="107.0" startX="54.0" startY="93.0" stroke="#32d3f0" />
+                        <Line endX="140.0" endY="92.0" startX="94.0" startY="63.0" stroke="#32d3f0" />
+                        <Line endX="140.0" endY="92.0" startX="54.0" startY="93.0" stroke="#32d3f0" />
+                        <Line endX="140.0" endY="92.0" startX="186.0" startY="74.0" stroke="#32d3f0" />
+                        <Line endX="177.0" endY="32.0" startX="186.0" startY="74.0" stroke="#32d3f0" />
+                        <Line endX="186.0" endY="74.0" startX="120.0" startY="52.0" stroke="#32d3f0" />
+                        <Line endX="186.0" endY="74.0" startX="94.0" startY="63.0" stroke="#32d3f0" />
+                        <Line endX="163.0" endY="107.0" startX="186.0" startY="74.0" stroke="#32d3f0" />
+                        <Line endX="140.0" endY="92.0" startX="163.0" startY="107.0" stroke="#32d3f0" />
+                        <Line endX="241.0" startX="217.0" startY="40.0" stroke="#32d3f0" />
+                        <Line endX="186.0" endY="74.0" startX="217.0" startY="40.0" stroke="#32d3f0" />
+                        <Line endX="216.0" endY="111.0" startX="178.0" startY="161.0" stroke="#32d3f0" />
+                        <Line endX="216.0" endY="111.0" startX="186.0" startY="74.0" stroke="#32d3f0" />
+                        <Line endX="216.0" endY="111.0" startX="163.0" startY="107.0" stroke="#32d3f0" />
+                        <Line endX="220.0" endY="167.0" startX="237.0" startY="142.0" stroke="#32d3f0" />
+                        <Line endX="216.0" endY="111.0" startX="237.0" startY="142.0" stroke="#32d3f0" />
+                        <Line endX="216.0" endY="111.0" startX="237.0" startY="98.0" stroke="#32d3f0" />
+                        <Line endX="237.0" endY="98.0" startX="186.0" startY="74.0" stroke="#32d3f0" />
+                        <Line endX="237.0" endY="74.0" startX="217.0" startY="40.0" stroke="#32d3f0" />
+                     </children>
+                  </Pane>
+
+
+                        <Rectangle fx:id="toprect" arcHeight="5.0" arcWidth="5.0" fill="#1a1a1acc" height="20.0" layoutX="6.0" layoutY="8.0" stroke="TRANSPARENT" strokeType="INSIDE" width="227.0" />
+                        <Button id="signout" fx:id="signout" alignment="TOP_CENTER" layoutX="7.0" layoutY="9.0" maxHeight="18.0" minHeight="0.0" mnemonicParsing="false" prefHeight="18.0" prefWidth="75.0" style="-fx-background-radius: 5; -fx-border-radius: 5; -fx-font-size: 10; -fx-background-insets: 0; -fx-label-padding: 0; -fx-line-spacing: 0; -fx-background-color: transparent;" styleClass="signout" stylesheets="@../Main.css" text="Sign Out" textFill="WHITE">
+                            <opaqueInsets>
+                                <Insets />
+                            </opaqueInsets>
+                            <padding>
+                                <Insets right="1.0" />
+                            </padding>
+                            <cursor>
+                                <Cursor fx:constant="HAND" />
+                            </cursor>
+                        </Button>
+                        <Button fx:id="close" layoutX="216.0" layoutY="11.0" maxHeight="10.0" maxWidth="10.0" prefHeight="10.0" prefWidth="10.0" style="-fx-background-color: transparent;" text="X" textFill="#32d3f0">
+                            <font>
+                                <Font name="Square721 BT Bold" size="12.0" />
+                            </font>
+                            <padding>
+                                <Insets bottom="-1.0" top="-1.0" />
+                            </padding>
+                            <cursor>
+                                <Cursor fx:constant="HAND" />
+                            </cursor>
+                        </Button>
+                        <Rectangle fx:id="maxrect" fill="#1a1a1a00" height="11.0" layoutX="200.0" layoutY="12.0" stroke="#32d3f0" strokeType="INSIDE" strokeWidth="2.0" width="11.0" />
+                        <Button fx:id="minimize" alignment="TOP_CENTER" layoutX="185.0" layoutY="13.0" maxHeight="10.0" maxWidth="10.0" prefHeight="10.0" prefWidth="10.0" style="-fx-background-color: transparent;" text="-" textFill="#32d3f0">
+                            <font>
+                                <Font name="Square721 BT Bold" size="20.0" />
+                            </font>
+                            <padding>
+                                <Insets bottom="-10.0" top="-10.0" />
+                            </padding>
+                            <cursor>
+                                <Cursor fx:constant="HAND" />
+                            </cursor>
+                        </Button>
+                        <Button fx:id="maximize" layoutX="200.0" layoutY="12.0" maxHeight="10.0" maxWidth="10.0" prefHeight="10.0" prefWidth="10.0" style="-fx-background-color: transparent;" textFill="WHITE">
+                            <font>
+                                <Font name="Square721 BT Bold" size="20.0" />
+                            </font>
+                            <padding>
+                                <Insets bottom="-10.0" left="5.0" right="5.0" top="-6.0" />
+                            </padding>
+                            <cursor>
+                                <Cursor fx:constant="HAND" />
+                            </cursor>
+                        </Button>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#32d3f0" height="59.0" layoutX="99.0" layoutY="115.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="49.0" />
+                        <Rectangle arcHeight="25.0" arcWidth="25.0" fill="#1f93ff00" height="162.0" layoutX="18.0" layoutY="43.0" stroke="#32d3f0" strokeType="INSIDE" strokeWidth="5.0" width="205.0" />
+                        <Circle fill="#32d3f0" layoutX="124.0" layoutY="89.0" radius="20.0" stroke="#32d3f000" strokeType="INSIDE" strokeWidth="0.0" />
+                        <Rectangle arcHeight="15.0" arcWidth="15.0" fill="#32d3f0" height="59.0" layoutX="85.0" layoutY="122.0" stroke="#ffffff00" strokeType="INSIDE" strokeWidth="0.0" width="75.0" />
+                  <Rectangle fill="#1a1a1a" height="59.0" layoutX="109.0" layoutY="122.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="28.0" />
+                        <Polygon fill="#32d3f0" layoutX="113.0" layoutY="90.0" points="0.0, 40.0, 0.0, 50.0, -15.0, 35.0, -15.0, 25.0," stroke="TRANSPARENT" strokeType="INSIDE" />
+                  <Polygon fill="#32d3f0" layoutX="133.0" layoutY="90.0" points="0.0, 40.0, 0.0, 50.0, 15.0, 35.0, 15.0, 25.0," stroke="TRANSPARENT" strokeType="INSIDE">
+                     <rotationAxis>
+                        <Point3D />
+                     </rotationAxis>
+                  </Polygon>
+                  <Polygon fill="#1a1a1a" layoutX="124.0" layoutY="82.0" points="-17.0, 0.0, 17.0, 0.0, 15.0 , 10.0 , 3.0, 10.0, 2.0, 2.0, -2.0, 2.0, -3.0, 10.0, -15.0, 10.0" stroke="TRANSPARENT" strokeType="INSIDE" />
+                    </children>
+                </Pane>
+                <Label id="coursebutton" fx:id="courselab" alignment="CENTER" layoutY="241.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="237.0" style="-fx-border-width: 0; -fx-font-size: 10;" styleClass="courselabel" stylesheets="@../Main.css" text="Course">
+
+                    <font>
+                        <Font name="Square721 BT Roman" size="10.0" />
+                    </font>
+                </Label>
+                <Label fx:id="name" alignment="CENTER" contentDisplay="CENTER" layoutY="222.0" minHeight="22.0" prefHeight="20.0" prefWidth="237.0" style="-fx-background-color: #333333; -fx-font-family: &quot;Square721 BT&quot;; -fx-font-style: normal; -fx-font-size: 15; -fx-border-color: white; -fx-border-width: 0;" text="Label" textFill="#2ecef0">
+               <font>
+                  <Font name="Square721 BT Roman" size="12.0" />
+               </font></Label>
+            </children>
+        </AnchorPane>
+    </top>
+    <center>
+
+        <ScrollPane fx:id="sp" fitToHeight="true" hbarPolicy="NEVER" prefHeight="283.0" prefWidth="318.0" style="-fx-background-color: #1A1A1A;" stylesheets="@../scroll.css" BorderPane.alignment="CENTER">
+            <content>
+
+
+                <VBox fx:id="vbox" prefHeight="278.0" prefWidth="237.0" spacing="5.0" style="-fx-background-color: #1A1A1A;">
+                    <padding>
+                        <Insets left="5.0" right="5.0" top="5.0" />
+                    </padding>
+                    <opaqueInsets>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </opaqueInsets>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+                </VBox>
+
+
+
+            </content>
+            <BorderPane.margin>
+                <Insets />
+            </BorderPane.margin>
+            <padding>
+                <Insets bottom="5.0" />
+            </padding>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+        </ScrollPane>
+
+    </center>
+</BorderPane>

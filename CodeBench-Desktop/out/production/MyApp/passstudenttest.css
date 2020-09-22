@@ -1,0 +1,29 @@
+.label{
+
+    -fx-font-size: 12px;
+    -fx-font-family: "Square721 BT";
+    -fx-text-fill: #1a1a1a;
+
+}
+
+.button {
+
+    -fx-background-color: #5FD4BC;
+    -fx-background-radius: 8px;
+    -fx-pref-width: 97px;
+    -fx-pref-height: 42px;
+
+}
+
+
+.button:hover{
+
+    -fx-background-color: #00A684;
+
+}
+
+.button:pressed{
+
+    -fx-background-color: #00DEB0;
+
+}
