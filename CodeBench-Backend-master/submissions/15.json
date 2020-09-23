@@ -1,1 +1,0 @@
-{"test_cases": [{"passed": true, "expected_input": "2", "expected_output": "4", "output": "4", "visible": true, "time_elapsed": 0.046988725662231445}], "student_id": 5, "test_cases_passed": 1, "total_test_cases": 1, "percentages": {"test_cases": 75, "linter": 25}, "scores": {"overall": 75.16732127310712, "linter": 0.1673212731071214, "test_cases": 75.0}, "time_limit": 25.0}
