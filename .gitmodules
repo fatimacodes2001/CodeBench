@@ -1,0 +1,6 @@
+[submodule "CodeBench-Desktop"]
+	path = CodeBench-Desktop
+	url = https://github.com/hanif-ali/CodeBench-Desktop
+[submodule "CodeBench-Backend"]
+	path = CodeBench-Backend
+	url = https://github.com/hanif-ali/CodeBench-Backend
